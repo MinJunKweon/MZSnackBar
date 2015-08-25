@@ -10,21 +10,9 @@
 		C14E5DB91B8C13BE0053C856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C14E5DB81B8C13BE0053C856 /* main.m */; };
 		C14E5DBC1B8C13BE0053C856 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C14E5DBB1B8C13BE0053C856 /* AppDelegate.m */; };
 		C14E5DBF1B8C13BE0053C856 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C14E5DBE1B8C13BE0053C856 /* ViewController.m */; };
-		C14E5DC21B8C13BE0053C856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14E5DC01B8C13BE0053C856 /* Main.storyboard */; };
 		C14E5DC41B8C13BE0053C856 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14E5DC31B8C13BE0053C856 /* Images.xcassets */; };
 		C14E5DC71B8C13BE0053C856 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C14E5DC51B8C13BE0053C856 /* LaunchScreen.xib */; };
-		C14E5DD31B8C13BE0053C856 /* MZSnackBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C14E5DD21B8C13BE0053C856 /* MZSnackBarTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C14E5DCD1B8C13BE0053C856 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C14E5DAB1B8C13BE0053C856 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C14E5DB21B8C13BE0053C856;
-			remoteInfo = MZSnackBar;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C14E5DB31B8C13BE0053C856 /* MZSnackBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZSnackBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,23 +22,12 @@
 		C14E5DBB1B8C13BE0053C856 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C14E5DBD1B8C13BE0053C856 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C14E5DBE1B8C13BE0053C856 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C14E5DC11B8C13BE0053C856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C14E5DC31B8C13BE0053C856 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C14E5DC61B8C13BE0053C856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C14E5DCC1B8C13BE0053C856 /* MZSnackBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZSnackBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14E5DD11B8C13BE0053C856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C14E5DD21B8C13BE0053C856 /* MZSnackBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZSnackBarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C14E5DB01B8C13BE0053C856 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C14E5DC91B8C13BE0053C856 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				C14E5DB51B8C13BE0053C856 /* MZSnackBar */,
-				C14E5DCF1B8C13BE0053C856 /* MZSnackBarTests */,
 				C14E5DB41B8C13BE0053C856 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				C14E5DB31B8C13BE0053C856 /* MZSnackBar.app */,
-				C14E5DCC1B8C13BE0053C856 /* MZSnackBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +60,6 @@
 				C14E5DBB1B8C13BE0053C856 /* AppDelegate.m */,
 				C14E5DBD1B8C13BE0053C856 /* ViewController.h */,
 				C14E5DBE1B8C13BE0053C856 /* ViewController.m */,
-				C14E5DC01B8C13BE0053C856 /* Main.storyboard */,
 				C14E5DC31B8C13BE0053C856 /* Images.xcassets */,
 				C14E5DC51B8C13BE0053C856 /* LaunchScreen.xib */,
 				C14E5DB61B8C13BE0053C856 /* Supporting Files */,
@@ -98,23 +72,6 @@
 			children = (
 				C14E5DB71B8C13BE0053C856 /* Info.plist */,
 				C14E5DB81B8C13BE0053C856 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C14E5DCF1B8C13BE0053C856 /* MZSnackBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				C14E5DD21B8C13BE0053C856 /* MZSnackBarTests.m */,
-				C14E5DD01B8C13BE0053C856 /* Supporting Files */,
-			);
-			path = MZSnackBarTests;
-			sourceTree = "<group>";
-		};
-		C14E5DD01B8C13BE0053C856 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C14E5DD11B8C13BE0053C856 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,24 +96,6 @@
 			productReference = C14E5DB31B8C13BE0053C856 /* MZSnackBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C14E5DCB1B8C13BE0053C856 /* MZSnackBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C14E5DD91B8C13BE0053C856 /* Build configuration list for PBXNativeTarget "MZSnackBarTests" */;
-			buildPhases = (
-				C14E5DC81B8C13BE0053C856 /* Sources */,
-				C14E5DC91B8C13BE0053C856 /* Frameworks */,
-				C14E5DCA1B8C13BE0053C856 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C14E5DCE1B8C13BE0053C856 /* PBXTargetDependency */,
-			);
-			name = MZSnackBarTests;
-			productName = MZSnackBarTests;
-			productReference = C14E5DCC1B8C13BE0053C856 /* MZSnackBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +107,6 @@
 				TargetAttributes = {
 					C14E5DB21B8C13BE0053C856 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					C14E5DCB1B8C13BE0053C856 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = C14E5DB21B8C13BE0053C856;
 					};
 				};
 			};
@@ -189,7 +124,6 @@
 			projectRoot = "";
 			targets = (
 				C14E5DB21B8C13BE0053C856 /* MZSnackBar */,
-				C14E5DCB1B8C13BE0053C856 /* MZSnackBarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14E5DC21B8C13BE0053C856 /* Main.storyboard in Resources */,
 				C14E5DC71B8C13BE0053C856 /* LaunchScreen.xib in Resources */,
 				C14E5DC41B8C13BE0053C856 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C14E5DCA1B8C13BE0053C856 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,33 +151,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C14E5DC81B8C13BE0053C856 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C14E5DD31B8C13BE0053C856 /* MZSnackBarTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C14E5DCE1B8C13BE0053C856 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C14E5DB21B8C13BE0053C856 /* MZSnackBar */;
-			targetProxy = C14E5DCD1B8C13BE0053C856 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		C14E5DC01B8C13BE0053C856 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C14E5DC11B8C13BE0053C856 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C14E5DC51B8C13BE0053C856 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MZSnackBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,43 +260,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MZSnackBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C14E5DDA1B8C13BE0053C856 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MZSnackBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZSnackBar.app/MZSnackBar";
-			};
-			name = Debug;
-		};
-		C14E5DDB1B8C13BE0053C856 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MZSnackBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZSnackBar.app/MZSnackBar";
 			};
 			name = Release;
 		};
@@ -416,14 +286,7 @@
 				C14E5DD81B8C13BE0053C856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C14E5DD91B8C13BE0053C856 /* Build configuration list for PBXNativeTarget "MZSnackBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C14E5DDA1B8C13BE0053C856 /* Debug */,
-				C14E5DDB1B8C13BE0053C856 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
